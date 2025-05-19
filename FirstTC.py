@@ -50,11 +50,11 @@ driver.find_element(By.ID, "submit").click()
 try:
     modal = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "modal-content")))
     if "Thanks for submitting the form" in modal.text:
-        print("✅ Test Case Passed: Form đã được submit thành công!")
+        print(" Test Case Passed: Form đã được submit thành công!")
     else:
-        print("❌ Test Case Failed: Form không gửi thành công.")
+        print(" Test Case Failed: Form không gửi thành công.")
 except:
-    print("❌ Test Case Failed: Không tìm thấy thông báo xác nhận.")
+    print(" Test Case Failed: Không tìm thấy thông báo xác nhận.")
 
 # Đóng trình duyệt
 time.sleep(3)
