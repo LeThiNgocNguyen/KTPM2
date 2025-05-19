@@ -28,9 +28,9 @@ phone_input.send_keys(invalid_phone)
 
 # Kiểm tra nếu số điện thoại không hợp lệ nhưng vẫn cho nhập
 if is_valid_phone(invalid_phone):
-    print("✅ Số điện thoại hợp lệ.")
+    print("Số điện thoại hợp lệ.")
 else:
-    print("❌ BUG: Form vẫn chấp nhận số điện thoại không hợp lệ!")
+    print("BUG: Form vẫn chấp nhận số điện thoại không hợp lệ!")
 
 # Chọn ngày sinh
 driver.find_element(By.ID, "dateOfBirthInput").click()
