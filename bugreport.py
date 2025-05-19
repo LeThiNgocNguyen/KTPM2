@@ -39,4 +39,3 @@ driver.find_element(By.XPATH, "//option[text()='1999']").click()
 driver.find_element(By.XPATH, "//option[text()='December']").click()
 driver.find_element(By.XPATH, "//div[contains(@class,'react-datepicker__day') and text()='25']").click()
 
-# Nhập môn học
